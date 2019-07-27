@@ -1,15 +1,16 @@
-﻿using System.Reflection;
+﻿using System.Resources;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // 組件的一般資訊是由下列的屬性集控制。
 // 變更這些屬性的值即可修改組件的相關
 // 資訊。
-[assembly: AssemblyTitle("Csharp_TurnOffMonitor")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("TurnOffMonitor")]
+[assembly: AssemblyDescription("One click to turn off monitor")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Csharp_TurnOffMonitor")]
+[assembly: AssemblyCompany("Yikai")]
+[assembly: AssemblyProduct("TurnOffMonitor")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -34,3 +35,5 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: NeutralResourcesLanguage("zh-TW")]
+
